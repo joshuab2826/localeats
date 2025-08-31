@@ -1,9 +1,9 @@
 
-<!doctype html><html lang="ko">
+<!doctype html><html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LocalEats — City</title>
-<meta name="description" content="현지인 위주 맛집 리스트">
+<meta name="description" content="Local-focused food list">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body data-page="city">
@@ -22,24 +22,24 @@
 
     <div class="panel">
       <div class="controls">
-        <input id="q" class="input" placeholder="검색 (이름/동네/설명/태그)">
+        <input id="q" class="input" placeholder="Search (name/neighborhood/desc/tags)">
         <select id="cat" class="input"></select>
-        <label class="switch"><input type="checkbox" id="togglePremium"> 프리미엄 보이기</label>
+        <label class="switch"><input type="checkbox" id="togglePremium"> Show premium</label>
       </div>
       <div class="controls" style="margin-top:8px">
         <label class="switch">Review↑ <input id="thr-review" class="input" type="number" step="0.05" min="0" max="2" style="width:90px"></label>
         <label class="switch">IG↑ <input id="thr-ig" class="input" type="number" step="0.05" min="0" max="2" style="width:90px"></label>
         <label class="switch">Tourist <input id="thr-tour" class="input" type="number" step="0.05" min="0" max="1" style="width:90px"></label>
-        <span class="note">리스트: <b id="count">0</b>곳</span>
+        <span class="note">List: <b id="count">0</b> items</span>
       </div>
     </div>
 
-    <div class="ad-slot"><!-- ADSNIP: Replace with ad code -->Banner Ad</div>
+    <div class="ad-slot"><!-- ADSNIP -->Banner Ad</div>
 
     <section id="list" class="list"></section>
 
     <div class="divider"></div>
-    <footer class="footer">현지성 유지 기준을 지속 점검합니다.</footer>
+    <footer class="footer">We continuously audit for local authenticity.</footer>
   </div>
   <script src="assets/app.js" defer></script>
 </body>
